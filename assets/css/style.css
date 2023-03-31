@@ -174,3 +174,10 @@ nav {
     margin: 0 auto;
     margin-left: 1.9%;
 }
+
+/* footer */
+
+footer {
+    height: 100px;
+    background-color: #575b50;
+}

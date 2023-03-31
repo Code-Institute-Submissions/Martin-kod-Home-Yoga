@@ -1,6 +1,45 @@
 @import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Rubik&family=Source+Sans+Pro:wght@300&display=swap');
 
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
 body {
     font-family: Source Sans Pro, sans-serif;
     color: #3a3a3a;
+}
+
+/* navigation menu */
+
+nav {
+    height: 100px;
+    background-color: #f3f3f3;
+}
+
+#nav-link ul {
+    height: 100px;
+}
+
+#nav-links li {
+    display: inline-block;
+    list-style-type: none;
+    text-transform: uppercase;
+    font-size: 180%;
+    width: 24%;
+    box-sizing: border-box;
+    text-align: center;
+    line-height: 100px;
+}
+
+#nav-links a {
+    text-decoration: none;
+    color: #3a3a3a;
+    
+}
+
+#nav-links a:hover {
+    text-decoration: underline;
+    color: rgb(8, 0, 85);
 }

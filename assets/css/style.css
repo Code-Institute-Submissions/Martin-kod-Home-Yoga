@@ -138,7 +138,7 @@ nav {
 /* Classes */
 
 #classes {
-    height: 260px;
+    height: 280px;
 }
 
 .class-box {
@@ -147,6 +147,7 @@ nav {
     border: #3a3a3a 1px solid;
     box-shadow: 2px 2px 2px #3a3a3a;
     text-align: center;
+    display: inline-block;
 }
 
 #classes h2 {
@@ -166,11 +167,10 @@ nav {
 
 #advanced {
     float: right;
-    position: relative;
-    bottom: 282px;
     margin-right: 3%;
 }
 
 #intermediate {
-    margin: 20px auto;
+    margin: 0 auto;
+    margin-left: 1.9%;
 }

@@ -41,13 +41,11 @@ nav {
     box-sizing: border-box;
     text-align: center;
     line-height: 50px;
-    font-weight: 500;
 }
 
 #nav-links a {
     text-decoration: none;
     color: #3a3a3a;
-
 }
 
 #nav-links a:hover {

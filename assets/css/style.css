@@ -90,7 +90,7 @@ nav {
 /* Information & Sign up section */
 
 #information {
-    height: 800px;
+    height: 260px;
 }
 
 #information h2 {
@@ -129,4 +129,34 @@ nav {
 #information a:hover {
     background-color: #f3f3f3;
     color: #3a3a3a;
+}
+
+/* Classes */
+
+#classes {
+    height: 260px;
+}
+
+.class-box {
+    width: 30%;
+    height: 260px;
+    border: #3a3a3a 1px solid;
+    box-shadow: 2px 2px 2px #3a3a3a;
+    text-align: center;
+}
+
+#beginner {
+    float: left;
+    margin-left: 3%;
+}
+
+#advanced {
+    float: right;
+    position: relative;
+    bottom: 262px;
+    right: 3%;
+}
+
+#intermediate {
+    margin: 0 auto;
 }

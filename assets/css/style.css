@@ -11,15 +11,25 @@ body {
     color: #3a3a3a;
 }
 
+h1 {
+    font-family: Indie Flower, sans-serif;
+    color: #3a3a3a;
+}
+
+h2 {
+    font-family: Rubik, sans-serif;
+    color: #3a3a3a;
+}
+
 /* navigation menu */
 
 nav {
-    height: 100px;
+    height: 50px;
     background-color: #f3f3f3;
 }
 
 #nav-link ul {
-    height: 100px;
+    height: 50px;
 }
 
 #nav-links li {
@@ -30,7 +40,7 @@ nav {
     width: 24%;
     box-sizing: border-box;
     text-align: center;
-    line-height: 100px;
+    line-height: 50px;
 }
 
 #nav-links a {
@@ -41,5 +51,39 @@ nav {
 
 #nav-links a:hover {
     text-decoration: underline;
-    color: rgb(8, 0, 85);
+    color: #575b50;
+}
+
+/* yoga image */
+
+#home-yoga {
+    height: 700px;
+    background-image: url(../images/yogi_dog.webp);
+    background-repeat: no-repeat;
+    background-position: center -150px;
+}
+
+/* #cover-text {
+    float: right;
+    margin-right: 20%;
+    margin-top: 40px;
+    border: solid 1px #3a3a3a;
+    background-color: #f3f3f3aa;
+    border-radius: 30px;
+    padding: 30px 50px;
+}
+
+#cover-text h1 {
+    font-size: 500%;
+} */
+
+#home-yoga h1 {
+    float: right;
+    margin-right: 10%;
+    margin-top: 80px;
+    font-size: 500%;
+    padding: 30px;
+    border: solid 1px #3a3a3a;
+    background-color: #f3f3f3aa;
+    border-radius: 30px;
 }

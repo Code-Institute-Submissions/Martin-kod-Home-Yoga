@@ -86,3 +86,47 @@ nav {
     background-color: #f3f3f3aa;
     border-radius: 30px;
 }
+
+/* Information & Sign up section */
+
+#information {
+    height: 800px;
+}
+
+#information h2 {
+    width 50%
+    float: left;
+    margin-left: 30px;
+    margin-top: 60px;
+    font-size: 150%;
+}
+
+#information li {
+    font-size: 120%;
+    width: 50%;
+    clear: left;
+    padding-left: 30px;
+    margin-bottom: 15px;
+    list-style-type: circle;
+}
+
+#information a {
+    font-size: 2rem;
+    float: right;
+    border: 2px solid #3a3a3a;
+    border-radius: 30px;
+    background-color: #575b50;
+    text-decoration: none;
+    color: #f3f3f3;
+    padding: 40px;
+    text-transform: uppercase;
+    font-weight: 800;
+    position: relative;
+    bottom: 200px;
+    margin-right: 15%;
+}
+
+#information a:hover {
+    background-color: #f3f3f3;
+    color: #3a3a3a;
+}

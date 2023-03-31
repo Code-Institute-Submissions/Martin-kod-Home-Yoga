@@ -181,3 +181,24 @@ footer {
     height: 100px;
     background-color: #575b50;
 }
+
+footer ul {
+    text-align: center;
+}
+
+footer li {
+    display: inline-block;
+    margin: 1.5% 5%;
+    font-size: 200%;
+    color: #f3f3f3;
+}
+
+footer a {
+    text-decoration: none;
+    color: #f3f3f3;
+    text-transform: uppercase;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}

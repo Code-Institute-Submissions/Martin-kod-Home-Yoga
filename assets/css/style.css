@@ -97,7 +97,7 @@ nav {
     width 50%
     float: left;
     margin-left: 30px;
-    margin-top: 60px;
+    margin-top: 100px;
     font-size: 150%;
 }
 
@@ -145,6 +145,16 @@ nav {
     text-align: center;
 }
 
+#classes h2 {
+    margin-top: 20px;
+}
+
+#classes p {
+    margin: 20px;
+    font-size: 110%;
+    text-align: left;
+}
+
 #beginner {
     float: left;
     margin-left: 3%;
@@ -153,10 +163,10 @@ nav {
 #advanced {
     float: right;
     position: relative;
-    bottom: 262px;
-    right: 3%;
+    bottom: 282px;
+    margin-right: 3%;
 }
 
 #intermediate {
-    margin: 0 auto;
+    margin: 20px auto;
 }

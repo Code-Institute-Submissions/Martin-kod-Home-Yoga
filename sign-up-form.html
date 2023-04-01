@@ -16,16 +16,36 @@
     <header>
         <nav>
             <ul id="nav-links">
-                <li><a href="#nav-links">Home <i class="fa-solid fa-house"></i></a></li>
-                <li><a href="#classes">Classes <i class="fa-solid fa-graduation-cap"></i></a></li>
-                <li><a href="#schedule">Schedule <i class="fa-regular fa-calendar-days"></i></a></li>
-                <li><a href="sign-up-form.html">Sign Up <i class="fa-solid fa-pen"></i></a></li>
+                <li><a href="index.html">Home <i class="fa-solid fa-house"></i></a></li>
             </ul>
         </nav>
     </header>
 
-    <section>
-        <form action=""></form>
+    <section id="sign-up-form">
+        <img src="assets/images/yoga-mom.jpg" alt="Mother doing yoga at home with her daughter.">
+        <form action="https://senddatahere.com" method="POST">
+        
+            <label for="fname">First Name</label>
+            <br>
+            <input id="fname" type="text" name="first_name" class="form-text" required>
+            <br>
+            <label for="lname">Last Name</label>
+            <br>
+            <input id="lname" type="text" name="last_name" class="form-text" required>
+            <br>
+            <label for="email">Email Address</label>
+            <br>
+            <input id="email" type="email" name="email_address" class="form-text" required>
+            <br>
+            <label for="beginner-course">Beginner</label>
+            <input type="radio" id="beginner-course" name="class_level" value="beginner" required>
+            <label for="intermediate-course">Intermediate</label>
+            <input type="radio" id="intermediate-course" name="class_level" value="intermediate">
+            <label for="advanced-course">Advanced</label>
+            <input type="radio" id="advanced-course" name="class_level" value="advanced">
+            <br>
+            <button type="submit">Sign up! <i class="fa-solid fa-pen"></i></button>
+        </form>
     </section>
 
     <footer>

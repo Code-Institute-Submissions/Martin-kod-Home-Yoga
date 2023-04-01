@@ -220,9 +220,10 @@ footer ul {
 
 footer li {
     display: inline-block;
-    margin: 1.5% 2%;
+    margin: 0 2%;
     font-size: 200%;
     color: #f3f3f3;
+    line-height: 100px;
 }
 
 footer a {
@@ -238,16 +239,16 @@ footer a:hover {
 /* Sign up form */
 
 #sign-up-form {
-    height: 1000px;
+    height: 1600px;
 }
 
 #sign-up-form img {
-    width: 50%;
-    margin: 0 25%;
+    width: 70%;
+    margin: 0 15%;
 }
 
 form {
-    margin-left: 40%;
+    margin-left: 30%;
 }
 
 label {
@@ -271,9 +272,57 @@ button {
     font-size: 130%;
     text-transform: uppercase;
     color: #3a3a3a;
+    margin-right: 50px;
 }
 
 button:hover {
     background-color: #3a3a3a;
     color: #f3f3f3;
+}
+
+/* responsive design */
+
+@media screen and (max-width: 1200px) {
+    #classes {
+        height: 1000px;
+    }
+    #beginner {
+        float: none;
+        width: 90%;
+        margin: 0 auto;
+    }
+    #advanced {
+        float: none;
+        width: 90%;
+        margin: 0 auto;
+    }
+    #intermediate {
+        width: 90%;
+    }
+    #sign-up-form img {
+        width: 90%;
+        margin: 0 5%;
+    }
+
+}
+
+@media screen and (max-width: 950px) {
+    #information-sign-up {
+        height: 800px;
+    }
+    #information-sign-up a {
+        float: none;
+        margin-top: 20px;
+    }
+    footer li {
+        font-size: 100%;
+        margin: 0 20px;
+    }
+    #nav-links li {
+        font-size: 80%;
+        margin: 0 20px;
+    }
+    #home-yoga h1 {
+        font-size: 300%;
+    }
 }

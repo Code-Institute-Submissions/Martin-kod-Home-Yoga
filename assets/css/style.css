@@ -62,20 +62,6 @@ nav {
     background-position: center -150px;
 }
 
-/* #cover-text {
-    float: right;
-    margin-right: 20%;
-    margin-top: 40px;
-    border: solid 1px #3a3a3a;
-    background-color: #f3f3f3aa;
-    border-radius: 30px;
-    padding: 30px 50px;
-}
-
-#cover-text h1 {
-    font-size: 500%;
-} */
-
 #home-yoga h1 {
     float: right;
     margin-right: 10%;
@@ -89,22 +75,24 @@ nav {
 
 /* Information & Sign up section */
 
+#information-sign-up {
+    height: 400px;
+}
+
 #information {
-    height: 260px;
+    width: 50%;
+    float: left;
 }
 
 #information h2 {
-    width: 50%;
-    float: left;
+    
     margin-left: 10%;
-    margin-top: 20px;
+    margin-top: 80px;
     font-size: 150%;
 }
 
 #information ul {
     margin-top: 10px;
-    width: 50%;
-    float: left;
     margin-left: 10%;
 }
 
@@ -114,7 +102,7 @@ nav {
     list-style-type: none;
 }
 
-#information a {
+#information-sign-up a {
     font-size: 2rem;
     float: right;
     border: 2px solid #3a3a3a;
@@ -127,7 +115,7 @@ nav {
     font-weight: 800;
     margin-right: 15%;
     display: inline-block;
-    margin-top: 20px;
+    margin-top: 120px;
 }
 
 #information a:hover {
@@ -138,16 +126,7 @@ nav {
 /* Classes */
 
 #classes {
-    height: 280px;
-}
-
-.class-box {
-    width: 30%;
-    height: 260px;
-    border: #3a3a3a 1px solid;
-    box-shadow: 2px 2px 2px #3a3a3a;
-    text-align: center;
-    display: inline-block;
+    height: 400px;
 }
 
 #classes h2 {
@@ -155,7 +134,7 @@ nav {
 }
 
 #classes p {
-    margin: 20px;
+    margin-left:20px;
     font-size: 110%;
     text-align: left;
 }
@@ -163,16 +142,31 @@ nav {
 #beginner {
     float: left;
     margin-left: 3%;
+    width: 30%;
+    height: 260px;
+    border: #3a3a3a 1px solid;
+    box-shadow: 2px 2px 2px #3a3a3a;
+    text-align: center;
 }
 
 #advanced {
     float: right;
     margin-right: 3%;
+    width: 30%;
+    height: 260px;
+    border: #3a3a3a 1px solid;
+    box-shadow: 2px 2px 2px #3a3a3a;
+    text-align: center;
 }
 
 #intermediate {
     margin: 0 auto;
-    margin-left: 1.9%;
+    
+    width: 30%;
+    height: 260px;
+    border: #3a3a3a 1px solid;
+    box-shadow: 2px 2px 2px #3a3a3a;
+    text-align: center;
 }
 
 /* footer */
@@ -188,7 +182,7 @@ footer ul {
 
 footer li {
     display: inline-block;
-    margin: 1.5% 5%;
+    margin: 1.5% 2%;
     font-size: 200%;
     color: #f3f3f3;
 }

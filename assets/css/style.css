@@ -8,6 +8,7 @@
 
 body {
     font-family: Source Sans Pro, sans-serif;
+    font-weight: 600;
     color: #3a3a3a;
 }
 
@@ -118,7 +119,7 @@ nav {
     margin-top: 120px;
 }
 
-#information a:hover {
+#information-sign-up a:hover {
     background-color: #f3f3f3;
     color: #3a3a3a;
 }
@@ -135,6 +136,7 @@ nav {
 
 #classes p {
     margin-left:20px;
+    margin-top: 10px;
     font-size: 110%;
     text-align: left;
 }
@@ -167,6 +169,37 @@ nav {
     border: #3a3a3a 1px solid;
     box-shadow: 2px 2px 2px #3a3a3a;
     text-align: center;
+}
+
+/* Schedule */
+
+#schedule {
+    height: 350px;
+}
+
+#schedule h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 250%;
+}
+
+#schedule table {
+    margin: 0 auto;
+    font-size: 130%;
+}
+
+#schedule th {
+    padding: 20px;
+    font-weight: 900;
+    border-bottom: #3a3a3a 1px solid;
+}
+#schedule td {
+    padding: 20px;
+}
+
+#schedule #left-table {
+    border-right: #3a3a3a 1px solid;
+    font-weight: 900;
 }
 
 /* footer */

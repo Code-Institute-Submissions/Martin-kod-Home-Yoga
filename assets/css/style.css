@@ -202,7 +202,7 @@ nav {
     padding: 20px;
 }
 
-#schedule #left-table {
+#schedule .left-table {
     border-right: #3a3a3a 1px solid;
     font-weight: 900;
 }

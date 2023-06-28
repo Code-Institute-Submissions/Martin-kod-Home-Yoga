@@ -38,7 +38,7 @@ Home Sweet Yoga is a website which offers Yoga classes to people in their own ho
 
 All of the HTML and CSS code have been tested in https://validator.w3.org/ https://jigsaw.w3.org/css-validator/validator without errors and google dev tools Lighthouse feature with approved results. 
 
-The website has resposive design technology incorporated but some elements do still overlap on screens with widths smaller than 500px.
+The website has resposive design technology incorporated and works well down to 320px.
 
 A bug I struggled with squashing was to align the three divs in the class level section, but eventually I managed by rearranging the order in the index.html file. The git commits were also tricky in this, my first repository, for I often forgot to save before I used git commit and so I had to do it twice. 
 

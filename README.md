@@ -6,17 +6,31 @@ Home Sweet Yoga is a website which offers Yoga classes to people in their own ho
 
 <strong>The navigation bar</strong> helps the user navigate the most important features of the website. The navigation bar also include suitable icons. Can be used to go back to the homepage from the sign-up-page.
 
+![nav bar](assets/images/nav-bar.png)
+
 <strong>The logo</strong> with an appropriate image encapturing home yoga. 
+
+![logo](assets/images/home-page.png)
 
 <strong>Information</strong> about the advantages of home yoga with an eye-capturing sign up-button.
 
+![information](assets/images/information.png)
+
 <strong>Class levels</strong> are explained more thoroughly so visitors can make out which level is appropriate for them.
+
+![classes](assets/images/classes.png)
 
 <strong>The schedule</strong> so that users are informed and can make choices accordingly.
 
+![schedule](assets/images/schedule.png)
+
 <strong>The footer</strong> holds external links to social media platforms for further information or contact.
 
+![footer](assets/images/footer.png)
+
 <strong>The sign-up-form</strong> is on its own html site and the users are required to fill in names, email and course level to be able to sign up for the site. 
+
+![form](assets/images/form.png)
 
 <strong>Features for the future</strong> are some type of forum or news with comments to build up the website's sense of community. A photo gallery where the community can share pictures of themselves doing yoga would also be of interest to the website.
 

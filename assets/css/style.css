@@ -244,15 +244,12 @@ footer a:hover {
 
 #sign-up-form {
     height: auto;
+    text-align: center;
 }
 
 #sign-up-form img {
-    width: 50%;
-    margin: 0 25%;
-}
-
-form {
-    margin-left: 30%;
+    width: 30%;
+    margin: 0 35%;
 }
 
 label {
@@ -276,7 +273,7 @@ button {
     font-size: 130%;
     text-transform: uppercase;
     color: #3a3a3a;
-    margin-right: 50px;
+    margin-bottom: 150px;
 }
 
 button:hover {
